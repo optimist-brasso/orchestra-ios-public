@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="LogoutView" id="0fJ-sl-58M" customClass="LogoutView" customModule="Brasso" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="495"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mq6-3V-W53">
+                    <rect key="frame" x="17" y="9" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Mq6-3V-W53" secondAttribute="height" multiplier="1:1" id="NNR-mV-n3H"/>
+                        <constraint firstAttribute="width" constant="30" id="U0o-zl-X9C"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="cross">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="regular"/>
+                    </state>
+                    <connections>
+                        <action selector="crossButtonTapped:" destination="0fJ-sl-58M" eventType="touchUpInside" id="mJO-TV-4sm"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ログアウトしますか？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJ8-O3-zB0">
+                    <rect key="frame" x="35" y="118" width="344" height="26.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="Brf-SU-lFb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksb-ZM-RmJ">
+                    <rect key="frame" x="124" y="311" width="166" height="36"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="CQd-hd-Tbx"/>
+                        <constraint firstAttribute="width" constant="166" id="XC7-JK-Ubv">
+                            <variation key="heightClass=regular-widthClass=regular" constant="320"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="16"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="はい"/>
+                    <connections>
+                        <action selector="logoutButtonTapped:" destination="0fJ-sl-58M" eventType="touchUpInside" id="xZ9-IV-yyf"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kJU-rD-6zc">
+                    <rect key="frame" x="98" y="429" width="218" height="19"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ax-1d-pz8">
+                            <rect key="frame" x="74" y="0.0" width="70" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="NKm-Sl-ojo"/>
+                                <constraint firstAttribute="width" constant="70" id="fN7-rg-L3S"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="キャンセル"/>
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="0fJ-sl-58M" eventType="touchUpInside" id="lOj-jQ-vdz"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWo-DT-cz0">
+                            <rect key="frame" x="74" y="18" width="70" height="1"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="9UA-Yk-43K"/>
+                                <constraint firstAttribute="height" constant="1" id="F7B-YE-Qy5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ログアウトしました" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8J-ig-arI">
+                    <rect key="frame" x="35" y="234.5" width="344" height="26.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="cgx-Kh-Upv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8YS-oZ-bZc"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GJ8-O3-zB0" firstAttribute="centerX" secondItem="0fJ-sl-58M" secondAttribute="centerX" id="2dP-Qb-kr5"/>
+                <constraint firstItem="kJU-rD-6zc" firstAttribute="leading" secondItem="0fJ-sl-58M" secondAttribute="leading" constant="98" id="GUM-tR-onc"/>
+                <constraint firstItem="kJU-rD-6zc" firstAttribute="top" secondItem="ksb-ZM-RmJ" secondAttribute="bottom" constant="82" id="KMX-KX-juR"/>
+                <constraint firstItem="kJU-rD-6zc" firstAttribute="centerX" secondItem="0fJ-sl-58M" secondAttribute="centerX" id="LNa-yn-p9U"/>
+                <constraint firstItem="j8J-ig-arI" firstAttribute="centerY" secondItem="0fJ-sl-58M" secondAttribute="centerY" id="RK7-SL-8kT"/>
+                <constraint firstItem="j8J-ig-arI" firstAttribute="leading" secondItem="0fJ-sl-58M" secondAttribute="leading" constant="35" id="RME-Bk-BBA"/>
+                <constraint firstItem="GJ8-O3-zB0" firstAttribute="leading" secondItem="0fJ-sl-58M" secondAttribute="leading" constant="35" id="cwh-BA-tK3"/>
+                <constraint firstAttribute="bottom" secondItem="kJU-rD-6zc" secondAttribute="bottom" constant="47" id="eJz-Ua-f5O"/>
+                <constraint firstItem="Mq6-3V-W53" firstAttribute="top" secondItem="0fJ-sl-58M" secondAttribute="top" constant="9" id="gVG-C0-acv"/>
+                <constraint firstItem="GJ8-O3-zB0" firstAttribute="top" secondItem="0fJ-sl-58M" secondAttribute="top" constant="118" id="qAV-vc-9fk"/>
+                <constraint firstItem="j8J-ig-arI" firstAttribute="centerX" secondItem="0fJ-sl-58M" secondAttribute="centerX" id="svb-Sf-Bsy"/>
+                <constraint firstItem="ksb-ZM-RmJ" firstAttribute="centerX" secondItem="0fJ-sl-58M" secondAttribute="centerX" id="xEr-iI-ZnR"/>
+                <constraint firstItem="Mq6-3V-W53" firstAttribute="leading" secondItem="0fJ-sl-58M" secondAttribute="leading" constant="17" id="yVG-qZ-7Uf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="2ax-1d-pz8" id="2hA-3n-Sgn"/>
+                <outlet property="cancelStackView" destination="kJU-rD-6zc" id="Low-Tl-x8m"/>
+                <outlet property="loggedOutLabel" destination="j8J-ig-arI" id="T4f-JY-Vl3"/>
+                <outlet property="logoutButton" destination="ksb-ZM-RmJ" id="dgm-Cu-Qof"/>
+                <outlet property="logoutConfirmationLabel" destination="GJ8-O3-zB0" id="Fja-eU-TO1"/>
+            </connections>
+            <point key="canvasLocation" x="-146.37681159420291" y="-629.12946428571422"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

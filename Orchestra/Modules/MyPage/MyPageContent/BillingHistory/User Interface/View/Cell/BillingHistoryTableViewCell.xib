@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Bold.otf">
+            <string>NotoSansJP-Bold</string>
+        </array>
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="BillingHistoryTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="152" id="KGk-i7-Jjw" customClass="BillingHistoryTableViewCell" customModule="Brasso" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="152"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="購入年月日：2022. 6. 1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvN-fT-s59">
+                        <rect key="frame" x="16" y="15.999999999999998" width="146.33333333333334" height="16.333333333333329"/>
+                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥500" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfh-Gr-Mht">
+                        <rect key="frame" x="260.66666666666669" y="15" width="40.333333333333314" height="21"/>
+                        <fontDescription key="fontDescription" name="NotoSansJP-Bold" family="Noto Sans JP" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSO-of-0Av">
+                        <rect key="frame" x="16" y="44.333333333333336" width="285" height="91.666666666666657"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="z0o-yt-JXj">
+                                <rect key="frame" x="13" y="8" width="259" height="75.666666666666671"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="jqK-W0-XPr">
+                                        <rect key="frame" x="0.0" y="0.0" width="165.66666666666666" height="16.333333333333332"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="【Session】" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pl3-aW-3Z8">
+                                                <rect key="frame" x="0.0" y="0.0" width="77.666666666666671" height="16.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium映像" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJQ-BA-8fK">
+                                                <rect key="frame" x="81.666666666666671" y="0.0" width="84.000000000000014" height="16.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="original recording/ゲンバンヒョウキ" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAM-rG-6qZ">
+                                        <rect key="frame" x="0.0" y="20.333333333333336" width="225.33333333333334" height="35"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MinusOne曲：トランペット 1st" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTs-Yr-5Bu">
+                                        <rect key="frame" x="0.0" y="59.333333333333336" width="199" height="16.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="z0o-yt-JXj" firstAttribute="top" secondItem="fSO-of-0Av" secondAttribute="top" constant="8" id="9DX-RG-HB0"/>
+                            <constraint firstItem="z0o-yt-JXj" firstAttribute="centerY" secondItem="fSO-of-0Av" secondAttribute="centerY" id="Ygf-vF-c7a"/>
+                            <constraint firstItem="z0o-yt-JXj" firstAttribute="centerX" secondItem="fSO-of-0Av" secondAttribute="centerX" id="ep7-Jr-e7Y"/>
+                            <constraint firstItem="z0o-yt-JXj" firstAttribute="leading" secondItem="fSO-of-0Av" secondAttribute="leading" constant="13" id="vTs-jU-gIj"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-gF-bZx">
+                        <rect key="frame" x="24" y="151" width="287" height="1"/>
+                        <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ONy-0D-Slf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qfh-Gr-Mht" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="0pJ-CZ-cDP"/>
+                    <constraint firstItem="fSO-of-0Av" firstAttribute="leading" secondItem="jvN-fT-s59" secondAttribute="leading" id="21B-aU-3QU"/>
+                    <constraint firstItem="qfh-Gr-Mht" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jvN-fT-s59" secondAttribute="trailing" constant="8" id="2I7-bI-Lyj"/>
+                    <constraint firstItem="fSO-of-0Av" firstAttribute="top" secondItem="jvN-fT-s59" secondAttribute="bottom" constant="12" id="2P3-lg-0r0"/>
+                    <constraint firstAttribute="bottom" secondItem="fSO-of-0Av" secondAttribute="bottom" constant="16" id="8nV-5K-w3o"/>
+                    <constraint firstAttribute="bottom" secondItem="rfK-gF-bZx" secondAttribute="bottom" id="9qS-A3-IwT"/>
+                    <constraint firstItem="jvN-fT-s59" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="E1m-0c-wW7"/>
+                    <constraint firstAttribute="trailing" secondItem="qfh-Gr-Mht" secondAttribute="trailing" constant="26" id="OuO-hX-fVf"/>
+                    <constraint firstItem="jvN-fT-s59" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="T6Y-sG-RHq"/>
+                    <constraint firstItem="fSO-of-0Av" firstAttribute="trailing" secondItem="qfh-Gr-Mht" secondAttribute="trailing" id="kvh-r7-mJX"/>
+                    <constraint firstAttribute="trailing" secondItem="rfK-gF-bZx" secondAttribute="trailing" constant="16" id="vTK-wu-GaT"/>
+                    <constraint firstItem="rfK-gF-bZx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="xT5-Pt-Ef5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateOfPurchaseLabel" destination="jvN-fT-s59" id="rBO-B2-XZ5"/>
+                <outlet property="instrumentLabel" destination="cTs-Yr-5Bu" id="FpV-Gh-G0t"/>
+                <outlet property="premiumLabel" destination="aJQ-BA-8fK" id="x4a-cf-43U"/>
+                <outlet property="priceLabel" destination="qfh-Gr-Mht" id="0QB-wz-Skq"/>
+                <outlet property="titleLabel" destination="FAM-rG-6qZ" id="U0m-lw-oQ1"/>
+                <outlet property="typeLabel" destination="pl3-aW-3Z8" id="APQ-mu-bB8"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="102.45535714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

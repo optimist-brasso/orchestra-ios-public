@@ -1,0 +1,330 @@
+/* 
+  Localizable.strings
+  Orchestra
+
+  Created by manjil on 30/03/2022.
+  
+*/
+"OOPS" = "問題が発生しております。暫く経ってからもう一度やり直してください。";
+"APP_NAME" = "Orchestra";
+"CANCEL" = "キャンセル";
+"AUTH_CANCEL" = "今はまだしない";
+"NOT_YET" = "キャンセル";
+"REQUIRED_PREFIX" = "%@ is required.";
+"VALID_REQUIRED_PREFIX" = "Please provide a valid %@.";
+"PLEASE_ENTER_YOUR" = "Please enter your  %@";
+"LOGIN_REQUIRED" = "続けるにはログインしてください";
+// register screen
+"REGISTER_AN_ACCOUNT" = "アカウントを登録する";
+"REGISTER_BY_EMAIL_SNS" = "メールアドレスで登録する";
+"REGISTER_BY_EMAIL" = "メールで登録";
+"USE_AN_SNS_ACCOUNT" = "SNSアカウントを利用する";
+"CONTINUE_WITH_LINE" = "LINEで続ける";
+"CONTINUE_ON_TWITTER" = "Twitterで続ける";
+"CONTINUE_ON_FACEBOOK" = "Facebookで続ける";
+"CONTINUE_ON_INSTAGRAM" = "Instagramで続ける";
+"CONTINUE_ON_APPLE" = "Appleで続ける";
+"DONT_REGISTER_NOW" = "今は登録しない";
+"LOGIN_NOW" = "アカウントをお待ちの方はこちら";
+// RegisterByEmail
+"EMAIL_ADDRESS"  = "メールアドレス";
+"PLEASE_ENTER_YOUR_EMAIL_ADDRESS" = "メールアドレスを入力してください";
+"TO_REGISTER" = "登録する";
+//OneTimePasswordScreen
+"ONE_TIME_PASSWORD" = "ワンタイムパスワード";
+"RESENT_OTP" = "ワンタイムパスワードをもう一度送信する";
+"PLEASE_ENTER_YOUR_OTP" = "ワンタイムパスワードを入力してください";
+"LOG_IN" =  "ログインする";
+"COMPLETE_THE_INPUT" = "入力を完了する";
+// RegisterPassword
+"REGISTER_PASSWORD" = "パスワードを登録";
+"PLEASE_ENTER_YOUR_PASSWORD" =  "パスワードを入力してください";
+"PASSWORD_NOTE" = "英字大文字・小文字、数字、記号(!\"\"#$%&'()=~)を1文字以上使用、8文字以上15文字以内にしてください。";
+// EditProfile
+"SELECT_ICON" = "アイコンを選ぶ";
+"REMOVE_IMAGE" = "画像を削除";
+"REMOVE_IMAGE_WARNING" = "画像を削除しますか？";
+"FULL_NAME" = "氏名";
+"INFORMATION_NOT_PUBLISHED" = "この情報は公開されません";
+"PLEASE_ENTER_YOUR_NAME" = "氏名を入力してください";
+"GENDER" = "性別";
+"REQUIRED" = "※必須";
+"MALE" = "男性";
+"FEMALE" = "女性";
+"ADD_GENDER" = "その他";
+"TO_SAVE" = "保存する";
+"SELECT_IMAGE" = "ログインしました";
+"NICKNAME_FULL_12_CHARACTER_OR_LESS" = "ニックネーム (全角12文字以内)";
+"PLEASE_ENTER_YOUR_NICKNAME" = "ニックネームを入力してください";
+"MUSICAL_INSTRUMENTS" = "演奏楽器";
+"PLEASE_ENTER_THE_INSTRUMENT_NAME" = "楽器名を入力してください";
+"POSTAL_CODE" = "郵便番号";
+"PLEASE_ENTER_YOUR_ZIP_CODE" = "郵便番号を入力してください";
+"AGE" = "年齢";
+"OCCUPATION" = "職業";
+"SELF_INTRODUCTION" = "自己紹介";
+"CHANGE_THE_PHOTO" = "写真を変更する";
+"UPDATE_PROFILE" = "プロフィールの更新";
+"PROFILE_UPDATE_SUCCESSFULLY"  = "プロフィールが更新されました";
+//MyPage
+"SETTINGS" = "設定";
+"MORE" = "その他";
+"PROFILE" = "プロフィール";
+"CHANGE_PASSWORD" = "パスワードの変更";
+"PURCHASED_LIST_CONTENT" = "購入済みコンテンツ一覧";
+"RECORDING_LIST" = "録音一覧";
+"BILLING_HISTORY" = "課金履歴";
+"POINT_PURCHASE_HISTORY" = "ポイント購入履歴";
+"POINTS" = "ポイント";
+"BUY_POINT_WARNING" = "このポイントパッケージを購入しますか？";
+"LOGOUT" = "ログアウト";
+"YES" = "はい";
+"WITHDRAWL" = "退会";
+"STREAMING_DOWNLOAD" = "ストリーミング再生/ダウンロード";
+"RECORDING" = "録音";
+"DATA_MANAGEMENT" = "データ管理";
+"PUSH_NOTIFICATION" = "プッシュ通知";
+"IMAGE_QUALITY_UPON_LOW_SPEED" = "低速通信時の画質調整";
+"APP_VERSION_INFORMATION" = "アプリのバージョン情報";
+"TUTORIAL" = "初めての方へ（チュートリアル）";
+"ABOUT_APP" = "このアプリについて";
+"FAQ_CONTACT_US" = "FAQ・お問い合わせ";
+"OPINION_REQUEST" = "ご意見・ご要望";
+"BRASSO_OFFICIAL_WEBSITE" = "BRASSO 公式ウェブサイト";
+"LOGOUT_CONFIRMATION" = "ログアウトしますか？";
+"LOGOUT_VALID" = "ログアウトしました";
+"CLICK_FOR_CONTACT_US" = "お問い合わせはコチラ";
+"CLICK_FOR_FAQ" = "よくあるご質問はコチラ";
+"CONTACT_US" = "お問い合わせ";
+"FAQ" = "FAQ";
+"TERMS_OF_SERVICE" = "利用規約";
+"PRIVACY_POLICY" = "プライバシーポリシー";
+"NOTATION" = "特定商取引法に基づく表記";
+"SOFTWARE_LISCENCE" = "ソフトウェアライセンス";
+"SONG_LISCENCE" = "楽曲ライセンス";
+"REVIEW_RATING" = "レビュー評価";
+"OPINION_REQUEST_HERE" = "ご意見・ご要望はコチラ";
+"DISK_FULL" = "ストレージが一杯です";
+//recording
+"RECORDING_EDITING_LIST" = "録音／編集データ　一覧";
+"SONG_NAME" = "楽曲名";
+"REC" = "録音する";
+"SUSPEND" = "中断する";
+"RECORDING_START" = "録音を開始しますか?";
+"RECORD_DESCRIPTION" = "録音された音は、今座っている位置ではなく、指揮者の位置で聴いた音として保存されます。";
+//streaming download settings
+"STREAMING_QUALITY" = "ストリーミングの質";
+"STREAMING_PLAYBACK_OVER_WIFI_ONLY" = "ストリーミング再生はWi-Fi接続時のみ";
+"NOTIFY_USING_MOBILE_DATA" = "モバイルデータを使用するときに通知する";
+"DOWNLOAD_QUALITY" = "ダウンロードの質";
+"DOWNLOAD_OVER_WIFI_ONLY" = "ダウンロードはWi-Fi接続時のみ";
+"AUTOMATIC_DOWNLOAD" = "自動ダウンロード";
+//tab bar
+"MY_PAGE" = "マイページ";
+"HOME" = "ホーム";
+"FAVOURITE" = "お気に入り";
+"SEARCH" = "検索";
+"PLAYLIST" = "楽曲一覧";
+//home
+"RECOMMENDED_CONTENT" = "おすすめコンテンツ";
+"SEE_MORE" = "もっと見る";
+//page option
+"CONDUCTOR" = "指揮者目線";
+"SESSION" = "一緒に演奏";
+"HALL_SOUND" = "客席リアル鑑賞";
+"PLAYER" = "Player";
+//home listing
+"HOME_LISTING_SEARCH_PLACEHOLDER" = "演奏者名、楽器、またはキーワード";
+//onboarding
+"COMPLETION" = "完了";
+"NEXT" = "次へ";
+"PREVIOUS" = "戻る";
+//profile
+"EDIT" = "編集";
+"YOUR_PROFILE" = "あなたのプロフィール";
+"NAME" = "氏名";
+"GENDER" = "性別";
+"NICKNAME" = "ニックネーム";
+"MUSICAL_INSTRUMENT" = "演奏楽器";
+"AREA" = "エリア（都道府県）";
+"EMAIL" = "メールアドレス";
+"EMAIL_PLACEHOLDER" = "Eメール";
+"PROFESSION" = "職業";
+"DATE_OF_BIRTH" = "生年月日";
+//Login
+"LOGIN" = "ログイン";
+"LOGIN_TITLE" = "ログインする";
+"USERNAME" = "メールアドレス";
+"PASSWORD" = "パスワード";
+"USERNAME_PLACEHOLDER" = "メールアドレスを入力してください";
+"PASSWORD_PLACEHOLDER" = "パスワードを入力してください";
+"FORGET_PASSWORD" = "パスワードがわからないとき・忘れたときは";
+"SOCIAL_LOGIN_TITLE" = "SNSアカウントでログインする";
+"LINE" = "LINEで続ける";
+"FACEBOOK" = "facebookで続ける";
+"TWITTER" = "twitterで続ける";
+"INSTAGRAM" = "Instagramで続ける";
+"REGISTER_ACCOUNT" = "アカウント登録";
+"LOGIN_FAIL" = "ログインに失敗しました";
+//search
+"SEARCH_PLACEHOLDER" = "楽曲名、作曲者名、またはキーワード";
+// Pop alert
+"EMAIL_IS_REQUIRED" = "メールアドレスは必須です";
+"OTP_IS_REQUIRED" = "ワンタイムパスワードを入力してく ださい";
+"EMAIL_INVALID" = "メールアドレスが違います";
+"PASSWORD_IS_REQUIRED" = "パスワードは必須です";
+"SESSION_EXPIRED" = "セッションの有効期限が切れました";
+"LOADING" = "ロード中";
+"USERNAME_IS_REQUIRED" = "ユーザー名は必須です";
+"GENDER_IS_REQUIRED" = "性別は必須です";
+"DOB_CANT_BE_EMPTY" = "誕生日を入力してください";
+"PROFESSION_IS_REQUIRED" = "職業は必須です";
+"POSTAL_CODE_IS_REQUIRED" = "郵便番号は必須です";
+"FULLNAME_IS_REQUIRED" = "氏名は必須です";
+"SELECT_PROFILE_IMAGE" = "プロフィール画像を選択してください";
+"NO_INTERNET" = "インターネット接続がありません。接続を確認してください";
+"NICKNAME_IS_REQUIRED" = "ニックネームは必須です";
+"ERROR_COMPRESSING_IMAGE" = "画像の圧縮中にエラーが発生しました";
+"OK" = "OK";
+"INSTRUMENT_CODE_IS_REQUIRED" = "演奏楽器は必須です";
+"ERROR_IMAGE_SIZE" = "%@KB 以下の画像を選択してください";
+"NO_DATA" = "データがありません";
+//conductor
+"COMPOSER" = "作曲者";
+"ORCHESTRA_NAME" = "楽団名";
+"CONDUCTOR_TITLE" = "指揮者";
+"ORGANIZATION" = "編成";
+"VENUE_NAME" = "会場名";
+"RELEASE_DATE" = "リリース日";
+"LISCENCE_NUMBER" = "ライセンス許諾番号";
+"PLAY_TIME" = "再生時間";
+"VIEW_ORGANIZATION_CHART" = "編成図をみる";
+//   ChangePassword
+"OLD_PASSWORD" = "古いパスワード";
+"PLEASE_ENTER_PASSWORD" = "パスワードを入力してください";
+"IF_YOU_DONT_KNOW_OR_FORGOT_YOUR_PASSWORD" = "パスワードがわからないとき・忘れたときは";
+"NEW_PASSWORD" = "新しいパスワード";
+"NEW_PASSWORD_CONFIRM"  = "新しいパスワード（確認入力）";
+"CHANGE" = "変更する";
+"NEW_PASSWORD_IS_REQUIRED" = "新しいパスワードは必須です";
+"CONFIRM_PASSWORD_IS_REQUIRED" = "確認用パスワードは必須です";
+"OLD_PASSWORD_IS_REQUIRED" = "古いパスワードは必須です";
+"New_AND_CONFIRM_PASSWORD_SAME" = "確認用パスワードが一致していませ";
+// Forgot Password
+"TO_RESET" = "リセット";
+"FORGOT_PASSWORD" = "パスワード忘れ";
+//notification
+"NEWS" = "ニュース";
+//hall sound
+"BUY" = "購入する";
+"CANNOT_FIND_BUY_PRODUCT" = "購入可能な有料コンテンツがありません";
+//player
+"BIRTHDAY" = "誕生日";
+"BLOOD_GROUP" = "血液型";
+"BIRTHPLACE" = "出身地";
+"INSTRUMENT" = "使用楽器";
+"MANUFACTURER" = "使用楽器";
+"PERFORMANCE" = "演奏楽曲";
+"PROFILE_LINK" = "▶︎詳しいプロフィールはコチラ";
+"PLAYER_MESSAGE" = "◇奏者からのメッセージ◇";
+//cart
+"MY_CART" = "カート";
+"CART" = "カート";
+"PREMIUM" = "Premium映像";
+"PREMIUM_SET" = "Premiumセット";
+"PART" = "MinusOne";
+"CANCEL_PURCHASE" = "購入キャンセル";
+"REMOVE_CART_ITEM_CONFIRMATION" = "このアイテムをカートから削除しますか？";
+"DELETE" = "削除する";
+"CHECKOUT_CONFIRMATION" = "選択したアイテムを購入しますか？";
+"CHECKOUT_SUCCESS_MESSAGE" = "購入しました";
+"CHECKOUT_MIN_ERROR" = "購入するアイテムを選択してください";
+//Billing History
+"PART_TUNE" = "MinusOne曲";
+"DATE_OF_PURCHASE" = "購入年月日";
+"YEAR" = "年";
+"MONTH" = "月";
+"DATE" = "日";
+//recording settins
+"FILE_FORMAT" = "ファイルフォーマット";
+"ENCODING_QUALITY" = "エンコード品質";
+"SAMPLING_RATE" = "サンプリングレート";
+"BIT_RATE" = "ビットレート";
+"CHANNEL" = "チャンネル";
+//data management settings
+"CACHE_DATA" = "キャッシュデータ";
+"CAPACITY_USED" = "使用容量";
+"CACHE_INFO" = "アプリのパフォーマンスを向上させるために、端末上に楽曲や画像などのキャッシュデータを一時的に保存しています。";
+"DELETE_CACHE" = "キャッシュデータを削除";
+"DELETE_CACHE_WARNING" = "すべてのキャッシュをクリアしますか？";
+"DOWNLOAD_SONGS" = "ダウンロード楽曲";
+"DOWNLOAD_COMPLETE" = "ダウンロード済み";
+"FREE_SPACE" = "空き容量";
+"DELETE_DOWNLOAD_DATA" = "ダウンロードデータを削除";
+"DELETE_DOWNLOAD_WARNING" = "ダウンロードしたすべてデータをクリアしますか？";
+//checkout confirmation
+"PURCHASE" = "購入手続き";
+//instrument detail
+"NO_INSTRUMENT" = "この演奏には楽器がありません";
+"BUY_PART" = "このMinusOne %@ を購入する";
+"CLICK_FOR_PREMIUM_VIDEO" = "奏者を堪能！PREMIUM映像はこちら";
+"BUY_BUNDLE" = "複数MinusOneをまとめて購入";
+"PLAY_SAMPLE_VIDEO" = "サンプル動画を再生する";
+"PLAY_VIDEO" = "動画を再生する";
+"PART_VIDEO_INFO" = "こちらのVR動画は、入れ替わり体験を目的としている為画角が制限されております。";
+"BUY_MINUS_ONE" = "MinusOne映像を購入";
+"NO_DATA_FOUND" = "データが見つかりません";
+//bulk instrument details
+"BUY_BULK" = "まとめて購入";
+"ADD_ALL_IN_CART" = "まとめてカートに入れる";
+"PURCHASE" = "購入";
+"PURCHASED" = "購入済";
+"ADD_TO_CART" = "カートに入れる";
+"BUY_CONFIRMATION" = "購入しますか？";
+"PURCHASED_IN_BULK" = "をまとめて購入しました";
+"ADDED_IN_CART" = "をまとめてカートに\n入れました";
+"MOVE_TO_CART_SHORT" = "カートに移動";
+"MOVE_TO_CART" = "カートに移動する";
+"INSTRUMENT_PURCHASE_MIN_ERROR" = "購入する楽器を選択してください";
+"INSTRUMENT_PURCHASE_MAX_ERROR" = "購入する楽器をひとつだけ選択してください";
+"INSTRUMENT_ADD_TO_CART_MIN_ERROR" = "カートに追加するのは1つ以上のMinusOneを選択してください";
+"SONGS" = "曲";
+//instrument detail buy
+"WOULD_YOU_BUY" = "を購入しますか？";
+"WOULD_YOU_BUY_AS_SET" = "をセット購入しますか？";
+"BOUGHT" = "を購入しました";
+"ADDED_TO_CART" = "をカートに入れました";
+//premium video details
+"BUY_PREMIUM_VIDEO_BUNDLE" = "MinusOne・PREMIUM映像 セット購入";
+"PREMIUM_VIDEO_SEPERATE_UNPURCHASABLE" = "※PREMIUM映像単体での購入はできません";
+"RETURN_TO_PART_VIDEO" = "MinusOne映像に戻る";
+"PREMIUM_VIDEO" = "PREMIUM映像";
+"CLICK_FOR_BONUS_VIDEO" = "購入特典付録 映像はこちら";
+"PREMIUM_VIDEO_INFO" = "PREMIUM映像は、プロのお手本動画になる為、MinusOne映像購入者限定のコンテンツになります。";
+"BUY_PREMIUM_VIDEO" = "PREMIUM映像を購入";
+//instrument player
+"BUY_THIS_PART" = "このMinusOneを購入しますか？";
+"WHAT_IS_PREMIUM_VIDEO" = "PREMIUM映像とは？";
+"BUY_THIS_PART_STATEMENT" = "このMinusOneを購入する";
+"MKV_NOT_SUPPORTED" = ".MKV コンテナ ビデオは、このデバイスではサポートされていません。";
+//"BUY_PREMIUM_VIDEO" = "PREMIUM映像を購入する";
+"BUY_PREMIUM" = "PREMIUM";
+"BUY_MULTIPLE_PART" = "複数のMinusOneをまとめて購入";
+"BUY_OTHER_PART" = "他のMinusOneを購入する";
+"PART_PURCHASED" = "このMinusOneは購入済";
+"CHECK_APPENDIX_PREMIUM_VIDEO" = "PREMIUM付録映像を確認する";
+"BUY_BUNDLE_PREMIUM_CONFIRMATION" = "PREMIUM映像セットを購入しますか？";
+//withdraw
+"WITHDRAW_CONFIRMATION" = "退会しますか？";
+"WITHDRAW" = "退会する";
+"STILL_WITHDRAW" = "それでも退会しますか？";
+"WITHDRAWN" = "退会しました";
+//iap
+"PURCHASE_CANCEL" = "有料コンテンツの購入をキャンセルしました";
+"FETCHING_PRODUCT" = "アプリストアから製品を取得しています";
+//download
+"WIFI_DOWNLOAD_ONLY" = "Wi-Fi接続時のみダウンロードが可能です";
+"CELLULAR_DOWNLOAD_WARNING" = "モバイルデータ通信を使ってダウンロードを継続しますか？";
+"REDOWNLOAD_VIDEO" = "フル機能を使用するためにフル動画を再ダウンロードしてください";
+"DOWNLOAD_IN_PROGRESS" = "楽曲をダウンロードしています。";
+"DOWNLOAD_STARTED" = "Download has started";

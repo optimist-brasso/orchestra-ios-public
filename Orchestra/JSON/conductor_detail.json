@@ -1,0 +1,25 @@
+{
+    "id":101,
+    "title":"Recording 20204023",
+    "title_jp":"ゲンバンヒョウキ",
+    "composer":"Beethoven",
+    "conductor":"Arjun Gurung",
+    "introduction":"Song was composed by beethoven in 1824.",
+    "tag": [
+        "NEW",
+        "PR",
+        "Premium",
+        "FREE"
+    ],
+    "record_time":"06/01/2022",
+    "duration":"45",
+    "picture":"asfads.com/image",
+    "band_id":12,
+    "venue_title":"Nagato hall",
+    "venue_description":"Nagato hall is located in kathmandu nepal",
+    "vr_file":"",
+    "center_floor":"",
+    "right_floor":"",
+    "left_floor":"",
+    "back_floor":""
+}

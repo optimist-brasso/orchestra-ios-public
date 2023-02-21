@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--HallSoundAudioPlayer-->
+        <scene sceneID="R60-Pu-Hpy">
+            <objects>
+                <viewController storyboardIdentifier="HallSoundAudioPlayerViewController" title="HallSoundAudioPlayer" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HSb-ou-7T5" customClass="HallSoundAudioPlayerViewController" customModule="Brasso" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y1H-iV-BwG"/>
+                        <viewControllerLayoutGuide type="bottom" id="PYB-Kq-ghm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Uc-9s-KgO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nZd-BZ-F6h">
+                                <rect key="frame" x="87.5" y="77" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="O74-BE-nVC"/>
+                                    <constraint firstAttribute="width" secondItem="nZd-BZ-F6h" secondAttribute="height" multiplier="1:1" id="P2x-7F-ykH"/>
+                                    <constraint firstAttribute="width" constant="200" id="h57-Oi-8JI"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XT8-3F-mRv">
+                                <rect key="frame" x="153" y="25" width="69" height="9"/>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="Jxr-Ko-HBb"/>
+                                    <constraint firstAttribute="height" constant="9" id="tkH-he-gc4"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="f6U-2o-7bL">
+                                <rect key="frame" x="35" y="297" width="305" height="46.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDR-ES-AcS" customClass="MarqueeLabel" customModule="Brasso" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="305" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="2gr-R2-NcI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日本語表記の楽曲名" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFS-qy-uaI" customClass="MarqueeLabel" customModule="Brasso" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="23" width="305" height="23.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="C91-fP-8yc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tK6-1p-xlP">
+                                <rect key="frame" x="28.5" y="352.5" width="318" height="1"/>
+                                <color key="backgroundColor" red="0.69803921568627447" green="0.58823529411764708" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JqH-pL-Hd1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Me4-il-JG9">
+                                <rect key="frame" x="28.5" y="349" width="8" height="8"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.58823529409999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="8" id="2gj-yg-UaO"/>
+                                    <constraint firstAttribute="height" constant="8" id="vZ2-qd-1ZR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjd-SA-Ia2">
+                                <rect key="frame" x="338.5" y="349" width="8" height="8"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.58823529409999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="dsd-XZ-n01"/>
+                                    <constraint firstAttribute="width" constant="8" id="fwk-9f-oYZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hw-pk-In6">
+                                <rect key="frame" x="68.5" y="360.5" width="238" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="ja7-qb-nhg"/>
+                                </constraints>
+                                <string key="text">りゅーとぴあ 新潟市民芸術文化会館
+コンサートホール</string>
+                                <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="〇〇席" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0S-24-RPR">
+                                <rect key="frame" x="87" y="401.5" width="201" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="Lnt-lX-ckS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dQx-EK-42q">
+                                <rect key="frame" x="45" y="492.5" width="285" height="19"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLp-ah-wWC">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="1Ya-vh-mHf"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="erT-h7-QBT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ua1-rp-lVC">
+                                        <rect key="frame" x="185" y="0.0" width="100" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="Utt-dx-FnY"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="clP-3K-k8b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Dki-zf-Kzk">
+                                <rect key="frame" x="110.5" y="529.5" width="154" height="52"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2i-iY-ub5">
+                                        <rect key="frame" x="-30" y="11.5" width="30" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29.050000000000001" id="e3g-JY-Lbq"/>
+                                            <constraint firstAttribute="width" constant="30" id="iNP-zm-6HU"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Group 148leftnext"/>
+                                        <connections>
+                                            <action selector="previousAudioButtonTapped:" destination="HSb-ou-7T5" eventType="touchUpInside" id="COs-ed-soJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NH-WK-qn3">
+                                        <rect key="frame" x="0.0" y="18.5" width="27" height="14.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="27.190000000000001" id="9g2-jF-F5s"/>
+                                            <constraint firstAttribute="height" constant="14.640000000000001" id="yxB-I1-Pqb"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Group 146left"/>
+                                        <connections>
+                                            <action selector="reverseAudioButtonTapped:" destination="HSb-ou-7T5" eventType="touchUpInside" id="XXe-3r-B2K"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3X-lc-SZW">
+                                        <rect key="frame" x="51" y="0.0" width="52" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="52" id="89g-kb-reP"/>
+                                            <constraint firstAttribute="height" constant="52" id="PgK-qC-HwH"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Group 145play">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAndPauseAudioButtonTapped:" destination="HSb-ou-7T5" eventType="touchUpInside" id="b1S-hq-nU6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kc-P8-e5w">
+                                        <rect key="frame" x="127" y="18.5" width="27" height="14.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="27.190000000000001" id="78M-gn-WIU"/>
+                                            <constraint firstAttribute="height" constant="14.640000000000001" id="lys-D5-CCN"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Group 147right"/>
+                                        <connections>
+                                            <action selector="forwardAudioButtonTapped:" destination="HSb-ou-7T5" eventType="touchUpInside" id="FtO-4d-fN2"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePX-b1-fNR">
+                                        <rect key="frame" x="154" y="11.5" width="30" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29.050000000000001" id="Bdb-sL-Xu2"/>
+                                            <constraint firstAttribute="width" constant="30" id="UwM-lU-rp5"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Group 149rightnext"/>
+                                        <connections>
+                                            <action selector="nextAudioButtonTapped:" destination="HSb-ou-7T5" eventType="touchUpInside" id="Woj-Hz-Zqn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="SU0-gm-uzn"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" distribution="equalSpacing" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jAI-VZ-2eV">
+                                <rect key="frame" x="32.5" y="602" width="310" height="25"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qM-rr-U4o">
+                                        <rect key="frame" x="0.0" y="0.0" width="15.5" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="1oh-cG-hXx"/>
+                                            <constraint firstAttribute="width" constant="15.35" id="N6a-Z8-on3"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="soundMinus"/>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pZG-yf-YUY" customClass="UIVolumeSlider" customModule="Brasso" customModuleProvider="target">
+                                        <rect key="frame" x="37.5" y="10.5" width="223" height="5"/>
+                                        <color key="backgroundColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="219" id="Jpa-XY-0NT">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="4" id="pQe-aK-eiY"/>
+                                        </constraints>
+                                        <color key="minimumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="thumbTintColor" systemColor="systemYellowColor"/>
+                                    </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lK-2N-a2a">
+                                        <rect key="frame" x="282.5" y="0.0" width="27.5" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="Wwf-Wm-b1A"/>
+                                            <constraint firstAttribute="width" constant="27.670000000000002" id="jiE-oz-jUX"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Groupsoundplus"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Zvx-d1-7eT"/>
+                                </constraints>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VNo-nz-fus" customClass="UIAudioSlider" customModule="Brasso" customModuleProvider="target">
+                                <rect key="frame" x="43" y="485.5" width="289" height="5"/>
+                                <color key="backgroundColor" red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="Iri-Ca-XTD"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="audioSliderScrubbed:" destination="HSb-ou-7T5" eventType="valueChanged" id="9Do-ST-ZaB"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k0S-24-RPR" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="87" id="1fq-vx-Att">
+                                <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                            </constraint>
+                            <constraint firstItem="f6U-2o-7bL" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="21S-wk-0bY"/>
+                            <constraint firstItem="PYB-Kq-ghm" firstAttribute="top" secondItem="jAI-VZ-2eV" secondAttribute="bottom" constant="40" id="4PX-yc-KFs"/>
+                            <constraint firstItem="f6U-2o-7bL" firstAttribute="top" secondItem="nZd-BZ-F6h" secondAttribute="bottom" constant="20" id="4kg-uN-jLh"/>
+                            <constraint firstItem="3Hw-pk-In6" firstAttribute="top" secondItem="tK6-1p-xlP" secondAttribute="bottom" constant="7" id="7WF-M0-Nih"/>
+                            <constraint firstItem="3Hw-pk-In6" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="9uT-zD-Dhk"/>
+                            <constraint firstItem="tK6-1p-xlP" firstAttribute="top" secondItem="f6U-2o-7bL" secondAttribute="bottom" constant="9" id="Cr9-Mt-1c4"/>
+                            <constraint firstItem="jAI-VZ-2eV" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="32.5" id="DGU-cq-fbx">
+                                <variation key="heightClass=regular-widthClass=regular" constant="240"/>
+                            </constraint>
+                            <constraint firstItem="VNo-nz-fus" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="DY7-kU-Yhk"/>
+                            <constraint firstItem="dQx-EK-42q" firstAttribute="leading" secondItem="VNo-nz-fus" secondAttribute="leading" id="F3v-9F-6Pq"/>
+                            <constraint firstItem="jjd-SA-Ia2" firstAttribute="trailing" secondItem="tK6-1p-xlP" secondAttribute="trailing" id="HUC-sL-H5L"/>
+                            <constraint firstItem="VNo-nz-fus" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="45" id="Rh7-Bi-TCJ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                            </constraint>
+                            <constraint firstItem="Me4-il-JG9" firstAttribute="leading" secondItem="tK6-1p-xlP" secondAttribute="leading" id="SaM-ex-qFW"/>
+                            <constraint firstItem="dQx-EK-42q" firstAttribute="trailing" secondItem="VNo-nz-fus" secondAttribute="trailing" id="Stx-PF-C25"/>
+                            <constraint firstItem="jAI-VZ-2eV" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="Tpl-V9-pPl"/>
+                            <constraint firstItem="tK6-1p-xlP" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="Xm6-lQ-yRx"/>
+                            <constraint firstItem="XT8-3F-mRv" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="Zg6-Cw-n4x"/>
+                            <constraint firstItem="Dki-zf-Kzk" firstAttribute="top" secondItem="dQx-EK-42q" secondAttribute="bottom" constant="18" id="aGr-dm-gfh"/>
+                            <constraint firstItem="jAI-VZ-2eV" firstAttribute="top" secondItem="Dki-zf-Kzk" secondAttribute="bottom" constant="20.710000000000001" id="dAq-i8-RbX"/>
+                            <constraint firstItem="Dki-zf-Kzk" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="dZ6-R2-KWC"/>
+                            <constraint firstItem="nZd-BZ-F6h" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="dsj-Nk-1Vy"/>
+                            <constraint firstItem="D3X-lc-SZW" firstAttribute="top" secondItem="VNo-nz-fus" secondAttribute="bottom" constant="40" id="g0D-Xl-jfP"/>
+                            <constraint firstItem="k0S-24-RPR" firstAttribute="centerX" secondItem="9Uc-9s-KgO" secondAttribute="centerX" id="gXj-Dh-KyQ"/>
+                            <constraint firstItem="tK6-1p-xlP" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="28.5" id="gkJ-iu-RfI">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="nZd-BZ-F6h" firstAttribute="top" secondItem="XT8-3F-mRv" secondAttribute="bottom" constant="43" id="gmX-F4-Eq2"/>
+                            <constraint firstItem="Me4-il-JG9" firstAttribute="centerY" secondItem="tK6-1p-xlP" secondAttribute="centerY" id="j8C-jO-XJu"/>
+                            <constraint firstItem="k0S-24-RPR" firstAttribute="top" secondItem="3Hw-pk-In6" secondAttribute="bottom" constant="7" id="jLv-bg-elv"/>
+                            <constraint firstItem="jjd-SA-Ia2" firstAttribute="centerY" secondItem="tK6-1p-xlP" secondAttribute="centerY" id="kx7-9z-GNf"/>
+                            <constraint firstItem="XT8-3F-mRv" firstAttribute="top" secondItem="y1H-iV-BwG" secondAttribute="bottom" constant="25" id="mxr-xM-CJe"/>
+                            <constraint firstItem="f6U-2o-7bL" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="35" id="oIa-g8-sLc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="3Hw-pk-In6" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="68.5" id="uAS-TB-sWU">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="nZd-BZ-F6h" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leading" constant="87.5" id="xs7-gP-ZNe">
+                                <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="audioCurrentTimeLabel" destination="jLp-ah-wWC" id="Mfl-yU-UbV"/>
+                        <outlet property="audioEnglishTitleLabel" destination="eDR-ES-AcS" id="I5w-7t-Gvo"/>
+                        <outlet property="audioImageView" destination="nZd-BZ-F6h" id="3C3-iR-yLr"/>
+                        <outlet property="audioNameInJapaneseNotationLabel" destination="mFS-qy-uaI" id="cxF-Js-QCG"/>
+                        <outlet property="audioPlayerMinimizerView" destination="XT8-3F-mRv" id="6fe-9V-AQb"/>
+                        <outlet property="audioSlider" destination="VNo-nz-fus" id="4gC-Wq-Ih4"/>
+                        <outlet property="audioTotalDurationLabel" destination="Ua1-rp-lVC" id="EbS-kS-diP"/>
+                        <outlet property="audioVolumeSlider" destination="pZG-yf-YUY" id="Cug-Zo-JVV"/>
+                        <outlet property="hallSeatsLabel" destination="k0S-24-RPR" id="JA8-rS-HHF"/>
+                        <outlet property="hallTitleLabel" destination="3Hw-pk-In6" id="H4H-qa-qr4"/>
+                        <outlet property="playPauseButton" destination="D3X-lc-SZW" id="H9w-S2-0vX"/>
+                        <outlet property="titleAndHallSeperatorView" destination="tK6-1p-xlP" id="7U2-tC-MbB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8je-5K-XuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="232.53373313343329"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="eDR-ES-AcS">
+            <size key="intrinsicContentSize" width="86.5" height="19"/>
+        </designable>
+        <designable name="mFS-qy-uaI">
+            <size key="intrinsicContentSize" width="180" height="23.5"/>
+        </designable>
+    </designables>
+    <color key="tintColor" red="0.78177064659999995" green="0.55228364470000002" blue="0.018981300289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="Group 145play" width="54" height="53"/>
+        <image name="Group 146left" width="28" height="28"/>
+        <image name="Group 147right" width="28" height="28"/>
+        <image name="Group 148leftnext" width="32" height="30"/>
+        <image name="Group 149rightnext" width="32" height="30"/>
+        <image name="Groupsoundplus" width="28" height="25"/>
+        <image name="placeholder" width="235" height="172.5"/>
+        <image name="soundMinus" width="16" height="25"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

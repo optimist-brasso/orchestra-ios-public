@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Hall Sound Detail Mini Audio Player View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="HallSoundDetailMiniAudioPlayerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="HallSoundDetailMiniAudioPlayerViewController" customModule="Brasso" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hbm-mb-0y0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k8b-iv-sVk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="3Y2-Fa-el0">
+                                        <rect key="frame" x="15" y="21" width="70" height="70"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="3Y2-Fa-el0" secondAttribute="height" multiplier="1:1" id="pe9-2j-D3h"/>
+                                            <constraint firstAttribute="width" constant="70" id="wc3-dA-LBg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sm-7H-3n2">
+                                        <rect key="frame" x="373" y="46" width="20" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="0ZV-bc-3dr"/>
+                                            <constraint firstAttribute="height" constant="20" id="NEA-iX-l7g"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="Group 147miniPlayerNext">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nextButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="k7g-kg-6ma"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ma ,sadljasljkdjoiasdjo asdj okasjdjasdp jasdkjas pdj aspoodapsodj poasjdp asj dp asdpjasdp a sdpsa dpjasd pasjdp a" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n52-f6-ehT" customClass="MarqueeLabel" customModule="Brasso" customModuleProvider="target">
+                                        <rect key="frame" x="96" y="22" width="302" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日本語表記の楽曲名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8Y-fk-Z1w" customClass="MarqueeLabel" customModule="Brasso" customModuleProvider="target">
+                                        <rect key="frame" x="96" y="42.5" width="223" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="○○席" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkp-i9-kND">
+                                        <rect key="frame" x="96" y="69" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY1-jU-WpF">
+                                        <rect key="frame" x="335" y="46" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="3PU-Mq-Dgr"/>
+                                            <constraint firstAttribute="height" constant="20" id="wfo-cB-6fJ"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="play.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playPauseTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GUy-gk-JkS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="e8Y-fk-Z1w" firstAttribute="leading" secondItem="n52-f6-ehT" secondAttribute="leading" id="1yl-da-R0B"/>
+                                    <constraint firstItem="BY1-jU-WpF" firstAttribute="centerY" secondItem="k8b-iv-sVk" secondAttribute="centerY" id="4U7-4Q-eg0"/>
+                                    <constraint firstItem="BY1-jU-WpF" firstAttribute="leading" secondItem="e8Y-fk-Z1w" secondAttribute="trailing" constant="16" id="7OB-IW-Dfk"/>
+                                    <constraint firstItem="mkp-i9-kND" firstAttribute="leading" secondItem="e8Y-fk-Z1w" secondAttribute="leading" id="ENB-V5-rhf"/>
+                                    <constraint firstItem="n52-f6-ehT" firstAttribute="top" secondItem="k8b-iv-sVk" secondAttribute="top" constant="22" id="Jq0-tu-Y9r"/>
+                                    <constraint firstItem="e8Y-fk-Z1w" firstAttribute="top" secondItem="n52-f6-ehT" secondAttribute="bottom" id="Pa3-Y4-cGb"/>
+                                    <constraint firstItem="mkp-i9-kND" firstAttribute="top" secondItem="e8Y-fk-Z1w" secondAttribute="bottom" id="T6t-SR-fBm"/>
+                                    <constraint firstAttribute="trailing" secondItem="n52-f6-ehT" secondAttribute="trailing" constant="16" id="dkN-Ty-ly2"/>
+                                    <constraint firstItem="n52-f6-ehT" firstAttribute="leading" secondItem="3Y2-Fa-el0" secondAttribute="trailing" constant="11" id="iD6-J3-wMo"/>
+                                    <constraint firstItem="3Y2-Fa-el0" firstAttribute="centerY" secondItem="k8b-iv-sVk" secondAttribute="centerY" id="lgS-27-mNN"/>
+                                    <constraint firstItem="3Y2-Fa-el0" firstAttribute="leading" secondItem="k8b-iv-sVk" secondAttribute="leading" constant="15" id="pJN-lE-m8q"/>
+                                    <constraint firstItem="6Sm-7H-3n2" firstAttribute="centerY" secondItem="k8b-iv-sVk" secondAttribute="centerY" id="v6G-gV-UsU"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Sm-7H-3n2" secondAttribute="trailing" constant="21" id="xnA-Qf-5QG"/>
+                                    <constraint firstItem="BY1-jU-WpF" firstAttribute="centerY" secondItem="k8b-iv-sVk" secondAttribute="centerY" id="zmt-Wf-EAW"/>
+                                    <constraint firstItem="6Sm-7H-3n2" firstAttribute="leading" secondItem="BY1-jU-WpF" secondAttribute="trailing" constant="18" id="zws-bC-pyV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Wv-z5-d5M"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k8b-iv-sVk" firstAttribute="leading" secondItem="hbm-mb-0y0" secondAttribute="leading" id="Ic9-K3-ZTH"/>
+                            <constraint firstItem="k8b-iv-sVk" firstAttribute="top" secondItem="hbm-mb-0y0" secondAttribute="top" id="KJF-zb-cEb"/>
+                            <constraint firstItem="k8b-iv-sVk" firstAttribute="centerX" secondItem="hbm-mb-0y0" secondAttribute="centerX" id="Onr-Sc-6YC"/>
+                            <constraint firstAttribute="bottom" secondItem="k8b-iv-sVk" secondAttribute="bottom" id="XX6-5x-8ec"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="112"/>
+                    <connections>
+                        <outlet property="audioEnglishTitleLabel" destination="n52-f6-ehT" id="6db-oV-cdk"/>
+                        <outlet property="audioImageView" destination="3Y2-Fa-el0" id="nbH-el-dPQ"/>
+                        <outlet property="audioJpTitleLabel" destination="e8Y-fk-Z1w" id="9j5-4m-PCQ"/>
+                        <outlet property="mainBarView" destination="k8b-iv-sVk" id="yqd-Hw-O9A"/>
+                        <outlet property="playPauseButton" destination="BY1-jU-WpF" id="WlX-Xg-ToM"/>
+                        <outlet property="seatLabel" destination="mkp-i9-kND" id="I2I-oS-Eke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="e8Y-fk-Z1w">
+            <size key="intrinsicContentSize" width="162" height="26.5"/>
+        </designable>
+        <designable name="n52-f6-ehT">
+            <size key="intrinsicContentSize" width="763" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Group 147miniPlayerNext" width="28" height="22"/>
+        <image name="placeholder" width="235" height="172.5"/>
+        <image name="play.fill" catalog="system" width="117" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,330 @@
+/* 
+  Localizable.strings
+  Orchestra
+
+  Created by manjil on 30/03/2022.
+  
+*/
+"OOPS" = "Something went wrong. Please try again later";
+"APP_NAME" = "Orchestra";
+"CANCEL" = "Cancel";
+"AUTH_CANCEL" = "Cancel";
+"NOT_YET" = "Not yet";
+"REQUIRED_PREFIX" = "%@ is required.";
+"VALID_REQUIRED_PREFIX" = "Please provide a valid %@.";
+"PLEASE_ENTER_YOUR" = "Please enter your  %@";
+"LOGIN_REQUIRED" = "Please login to continue";
+// register screen 
+"REGISTER_AN_ACCOUNT" = "Register an account";
+"REGISTER_BY_EMAIL_SNS" = "Register by email / SNS";
+"REGISTER_BY_EMAIL" = "Register by email";
+"USE_AN_SNS_ACCOUNT" = "Use an SNS account";
+"CONTINUE_WITH_LINE" = "Continue with LINE";
+"CONTINUE_ON_TWITTER" = "Continue on Twitter";
+"CONTINUE_ON_FACEBOOK" = "Continue on Facebook";
+"CONTINUE_ON_INSTAGRAM" = "Continue on Instagram";
+"CONTINUE_ON_APPLE" = "Continue on Apple";
+"DONT_REGISTER_NOW" = "Don't register now";
+"LOGIN_NOW" = "Click here if you are waiting for an account";
+// RegisterByEmail
+"EMAIL_ADDRESS"  = "email address";
+"PLEASE_ENTER_YOUR_EMAIL_ADDRESS" = "Please enter your e-mail address";
+"TO_REGISTER" = "to register";
+//OneTimePasswordScreen
+"ONE_TIME_PASSWORD" = "one-time password";
+"RESENT_OTP" = "Send the one-time password again";
+"PLEASE_ENTER_YOUR_OTP" = "Please enter your OTP";
+"LOG_IN" =  "log in";
+"COMPLETE_THE_INPUT" = "Complete the input";
+// RegisterPassword
+"REGISTER_PASSWORD" = "Register password";
+"PLEASE_ENTER_YOUR_PASSWORD" =  "Please enter your password";
+"PASSWORD_NOTE" = "8 to 15 characters using letters and numbers";
+// EditProfile
+"SELECT_ICON" = "Select an icon";
+"REMOVE_IMAGE" = "Delete image";
+"REMOVE_IMAGE_WARNING" = "Are you sure you want to remove your image?";
+"FULL_NAME" = "Full Name";
+"INFORMATION_NOT_PUBLISHED" = "this information will not be published";
+"PLEASE_ENTER_YOUR_NAME" = "Please enter your name";
+"GENDER" = "Gender";
+"REQUIRED" = "Required";
+"MALE" = "Male";
+"FEMALE" = "Female";
+"ADD_GENDER" = "Add gender";
+"TO_SAVE" = "To save";
+"SELECT_IMAGE" = "Plesae select a profile image";
+"NICKNAME_FULL_12_CHARACTER_OR_LESS" = "Nickname (full-width 12 characters or less)";
+"PLEASE_ENTER_YOUR_NICKNAME" = "Please enter your nickname";
+"MUSICAL_INSTRUMENTS" = "Musical instruments";
+"PLEASE_ENTER_THE_INSTRUMENT_NAME" = "Please enter the instrument name";
+"POSTAL_CODE" = "Postal code";
+"PLEASE_ENTER_YOUR_ZIP_CODE" = "Please enter your zip code";
+"AGE" = "Age";
+"OCCUPATION" = "Occupation";
+"SELF_INTRODUCTION" = "Self Introduction";
+"CHANGE_THE_PHOTO" = "Change the photo";
+"UPDATE_PROFILE" = "UPDATE PROFILE";
+"PROFILE_UPDATE_SUCCESSFULLY"  = "Profile updated successfully";
+//MyPage
+"SETTINGS" = "Settings";
+"MORE" = "More";
+"PROFILE" = "Profile";
+"CHANGE_PASSWORD" = "Change Password";
+"PURCHASED_LIST_CONTENT" = "Purchased List";
+"RECORDING_LIST" = "Recording List";
+"BILLING_HISTORY" = "Billing History";
+"POINT_PURCHASE_HISTORY" = "Point purchase history";
+"POINTS" = "Points";
+"BUY_POINT_WARNING" = "Are you sure you want to buy this point bundle?";
+"LOGOUT" = "Logout";
+"YES" = "Yes";
+"WITHDRAWL" = "Withdrawl";
+"STREAMING_DOWNLOAD" = "Streaming / Download";
+"RECORDING" = "Recording";
+"DATA_MANAGEMENT" = "Data Management";
+"PUSH_NOTIFICATION" = "Push Notification";
+"IMAGE_QUALITY_UPON_LOW_SPEED" = "Image quality adjustment during low-speed communication";
+"APP_VERSION_INFORMATION" = "App version information";
+"TUTORIAL" = "For first-time users (tutorial)";
+"ABOUT_APP" = "About this app";
+"FAQ_CONTACT_US" = "FAQ / Inquiries";
+"OPINION_REQUEST" = "Opinions and requests";
+"BRASSO_OFFICIAL_WEBSITE" = "BRASSO official website";
+"LOGOUT_CONFIRMATION" = "Are you sure you want to logout?";
+"LOGOUT_VALID" = "logged out";
+"CLICK_FOR_CONTACT_US" = "お問い合わせはコチラ";
+"CLICK_FOR_FAQ" = "よくあるご質問はコチラ";
+"CONTACT_US" = "Contact us";
+"FAQ" = "FAQ";
+"TERMS_OF_SERVICE" = "Terms of Service";
+"PRIVACY_POLICY" = "Privacy Policy";
+"NOTATION" = "Notation based on the Act on Specified Commercial Transactions";
+"SOFTWARE_LISCENCE" = "Software License";
+"SONG_LISCENCE" = "Song License";
+"REVIEW_RATING" = "Review rating";
+"OPINION_REQUEST_HERE" = "Opinions and requests here";
+"DISK_FULL" = "Disk is full";
+//recording
+"RECORDING_EDITING_LIST" = "Recording / editing data list";
+"SONG_NAME" = "Song Name";
+"REC" = "REC";
+"SUSPEND" = "Suspend";
+"RECORDING_START" = "Do you want to start recording?";
+"RECORD_DESCRIPTION" = "The recorded sound is saved as the sound heard in the conductor's position, not in the current sitting position.";
+//streaming download settings
+"STREAMING_QUALITY" = "Streaming Quality";
+"STREAMING_PLAYBACK_OVER_WIFI_ONLY" = "Streaming playback is only when connected to Wi-Fi";
+"NOTIFY_USING_MOBILE_DATA" = "Notify when using mobile data";
+"DOWNLOAD_QUALITY" = "Download Quality";
+"DOWNLOAD_OVER_WIFI_ONLY" = "Download only when connected to Wi-Fi";
+"AUTOMATIC_DOWNLOAD" = "Automatic Download";
+//tab bar
+"MY_PAGE" = "My Page";
+"HOME" = "Home";
+"FAVOURITE" = "Favourite";
+"SEARCH" = "Search";
+"PLAYLIST" = "Playlist";
+//home
+"RECOMMENDED_CONTENT" = "Recommended Contents";
+"SEE_MORE" = "See More";
+//page option
+"CONDUCTOR" = "Conductor";
+"SESSION" = "Session";
+"HALL_SOUND" = "Hall Sound";
+"PLAYER" = "Player";
+//home listing
+"HOME_LISTING_SEARCH_PLACEHOLDER" = "Performer name, instrument, or keyword";
+//onboarding
+"COMPLETION" = "Completion";
+"NEXT" = "Next";
+"PREVIOUS" = "Previous";
+//profile
+"EDIT" = "Edit";
+"YOUR_PROFILE" = "Your Profile";
+"NAME" = "Name";
+"GENDER" = "Gender";
+"NICKNAME" = "Nickname";
+"MUSICAL_INSTRUMENT" = "Musical Instrument";
+"AREA" = "Area";
+"EMAIL" = "Email";
+"EMAIL_PLACEHOLDER" = "Email";
+"PROFESSION" = "Profession";
+"DATE_OF_BIRTH" = "Date of birth";
+//Login
+"LOGIN" = "Login";
+"LOGIN_TITLE" = "Login";
+"USERNAME" = "Mail Address";
+"PASSWORD" = "Password";
+"USERNAME_PLACEHOLDER" = "Please enter your e-mail address";
+"PASSWORD_PLACEHOLDER" = "Please enter your password";
+"FORGET_PASSWORD" = "If you don't know or forget your password";
+"SOCIAL_LOGIN_TITLE" = "Log in with your SNS account";
+"LINE" = "Continue with LINE";
+"FACEBOOK" = "Continue on facebook";
+"TWITTER" = "Continue on twitter";
+"INSTAGRAM" = "Continue on Instagram";
+"REGISTER_ACCOUNT" = "Register an Account";
+"LOGIN_FAIL" = "Login failed";
+//search
+"SEARCH_PLACEHOLDER" = "Song name, composer name, or keyword";
+// Pop alert
+"EMAIL_IS_REQUIRED" = "Email is required";
+"OTP_IS_REQUIRED" = "OTP  is required";
+"EMAIL_INVALID" = "Email is invalid";
+"PASSWORD_IS_REQUIRED" = "Password  is required";
+"SESSION_EXPIRED" = "Session expired";
+"LOADING" = "Loading…";
+"USERNAME_IS_REQUIRED" = "Username  is required";
+"GENDER_IS_REQUIRED" = "Gender  is required";
+"DOB_CANT_BE_EMPTY" = "DOB cannot be empty";
+"PROFESSION_IS_REQUIRED" = "Professional  is required";
+"POSTAL_CODE_IS_REQUIRED" = "Postal code  is required";
+"FULLNAME_IS_REQUIRED" = "Full name  is required";
+"SELECT_PROFILE_IMAGE" = "Profile image should be selected";
+"NO_INTERNET" = "No internet connection.Check your connection and try again";
+"NICKNAME_IS_REQUIRED" = "Nick name  is required";
+"ERROR_COMPRESSING_IMAGE" = "Error while compressing image.";
+"OK" = "OK";
+"INSTRUMENT_CODE_IS_REQUIRED" = "Music instrument is required";
+"ERROR_IMAGE_SIZE" = "Please selected profile image of size less then or equal to %@KB";
+"NO_DATA" = "No data available";
+//conductor
+"COMPOSER" = "Composer";
+"ORCHESTRA_NAME" = "Orchestra Name";
+"CONDUCTOR_TITLE" = "Conductor";
+"ORGANIZATION" = "Organization";
+"VENUE_NAME" = "Venue Name";
+"RELEASE_DATE" = "Release Date";
+"LISCENCE_NUMBER" = "Liscence Number";
+"PLAY_TIME" = "Play time";
+"VIEW_ORGANIZATION_CHART" = "View ogranization chart";
+//   ChangePassword
+"OLD_PASSWORD" = "Old Password";
+"PLEASE_ENTER_PASSWORD" = "Please enter your password";
+"IF_YOU_DONT_KNOW_OR_FORGOT_YOUR_PASSWORD" = "if you don't know password or forgot password";
+"NEW_PASSWORD" = "New Password";
+"NEW_PASSWORD_CONFIRM"  = "New Password (confirmation input)";
+"CHANGE" = "Change";
+"NEW_PASSWORD_IS_REQUIRED" = "new password is required";
+"CONFIRM_PASSWORD_IS_REQUIRED" = "confirm password is required";
+"OLD_PASSWORD_IS_REQUIRED" = "old password is required";
+"New_AND_CONFIRM_PASSWORD_SAME" = "Password and confirm password must be same";
+// Forgot Password
+"TO_RESET" = "To Reset";
+"FORGOT_PASSWORD" = "Forgot Password";
+//notification
+"NEWS" = "NEWS";
+//hall sound
+"BUY" = "Buy";
+"CANNOT_FIND_BUY_PRODUCT" = "Cannot find product to buy.";
+//player
+"BIRTHDAY" = "Birthday";
+"BLOOD_GROUP" = "Blood Group";
+"BIRTHPLACE" = "Birth Place";
+"INSTRUMENT" = "Instrument";
+"MANUFACTURER" = "Manufacturer";
+"PERFORMANCE" = "Performance";
+"PROFILE_LINK" = "▶︎Profile Link";
+"PLAYER_MESSAGE" = "◇Message from profile◇";
+//cart
+"MY_CART" = "My Cart";
+"CART" = "Cart";
+"PREMIUM" = "Premium映像";
+"PREMIUM_SET" = "Premium Set";
+"PART" = "Part";
+"CANCEL_PURCHASE" = "Purchase cancellation";
+"REMOVE_CART_ITEM_CONFIRMATION" = "Are you sure you want to remove this item from cart?";
+"DELETE" = "Delete";
+"CHECKOUT_CONFIRMATION" = "Are you sure you want to purchase selected items?";
+"CHECKOUT_SUCCESS_MESSAGE" = "Successfully purchased";
+"CHECKOUT_MIN_ERROR" = "Purchase item should be selected";
+//Billing History
+"PART_TUNE" = "Part tune";
+"DATE_OF_PURCHASE" = "Date of purchase";
+"YEAR" = "Year";
+"MONTH" = "Month";
+"DATE" = "Date";
+//recording settings
+"FILE_FORMAT" = "File Format";
+"ENCODING_QUALITY" = "Encoding Quality";
+"SAMPLING_RATE" = "Sampling rate";
+"BIT_RATE" = "Bit Rate";
+"CHANNEL" = "Channel";
+//data management settings
+"CACHE_DATA" = "Cache data";
+"CAPACITY_USED" = "Capacity used";
+"CACHE_INFO" = "In order to improve the performance of the app, cache data such as songs and images are temporarily stored on the device.";
+"DELETE_CACHE" = "Delete cache data";
+"DELETE_CACHE_WARNING" = "Are you sure you want to clear all your caches?";
+"DOWNLOAD_SONGS" = "Download songs";
+"DOWNLOAD_COMPLETE" = "download complete";
+"FREE_SPACE" = "Free space";
+"DELETE_DOWNLOAD_DATA" = "Delete download data";
+"DELETE_DOWNLOAD_WARNING" = "Are you sure you want to clear all your downloads?";
+//checkout confirmation
+"PURCHASE" = "購入手続き";
+//instrument detail
+"NO_INSTRUMENT" = "No instrument found for this session";
+"BUY_PART" = "Buy this part %@";
+"CLICK_FOR_PREMIUM_VIDEO" = "Enjoy the performers! Click here for PREMIUM video";
+"BUY_BUNDLE" = "Buy multiple parts at once";
+"PLAY_SAMPLE_VIDEO" = "Play Sample Video";
+"PLAY_VIDEO" = "Play the video";
+"PART_VIDEO_INFO" = "This VR video is for the purpose of a replacement experience.\NThe angle of view is limited.";
+"BUY_MINUS_ONE" = "Buy MinusOne Footage";
+"NO_DATA_FOUND" = "No data found";
+//bulk instrument details
+"BUY_BULK" = "Buy in bulk";
+"ADD_ALL_IN_CART" = "Add to cart all at once";
+"PURCHASE" = "Purchase";
+"PURCHASED" = "Purchased";
+"ADD_TO_CART" = "Add To Cart";
+"BUY_CONFIRMATION" = "Do you want to buy?";
+"PURCHASED_IN_BULK" = "We purchased in bulk";
+"ADDED_IN_CART" = "In a cart\nI put it in";
+"MOVE_TO_CART_SHORT" = "Move To Cart";
+"MOVE_TO_CART" = "Move To Cart";
+"INSTRUMENT_PURCHASE_MIN_ERROR" = "Please select an instrument in order to purchase.";
+"INSTRUMENT_PURCHASE_MAX_ERROR" = "Please select only one instrument in order to purchase.";
+"INSTRUMENT_ADD_TO_CART_MIN_ERROR" = "Please select at least one instrument in order to add in cart.";
+"SONGS" = " Songs";
+//instrument detail buy
+"WOULD_YOU_BUY" = "Would you like to buy?";
+"WOULD_YOU_BUY_AS_SET" = "Do you want to buy a set?";
+"BOUGHT" = "I bought";
+"ADDED_TO_CART" = "Was added to the cart";
+//premium video details
+"BUY_PREMIUM_VIDEO_BUNDLE" = "MinusOne/PREMIUM video set purchase";
+"PREMIUM_VIDEO_SEPERATE_UNPURCHASABLE" = "* Premium video cannot be purchased separately.";
+"RETURN_TO_PART_VIDEO" = "Return to part video";
+"PREMIUM_VIDEO" = "Premium Video";
+"CLICK_FOR_BONUS_VIDEO" = "Click here for purchase bonus video";
+"PREMIUM_VIDEO_INFO" = "PREMIUM video is a professional model video, so This content is limited to MinusOne video purchasers.";
+"BUY_PREMIUM_VIDEO" = "BUY PREMIUM VIDEOS";
+//instrument player
+"BUY_THIS_PART" = "Would you like to buy this part?";
+"WHAT_IS_PREMIUM_VIDEO" = "What is premium video?";
+"BUY_THIS_PART_STATEMENT" = "Buy this part";
+"MKV_NOT_SUPPORTED" = "The .MKV container video is not supported on this device.";
+//"BUY_PREMIUM_VIDEO" = "Buy Premium Video";
+"BUY_PREMIUM" = "Buy Premium";
+"BUY_MULTIPLE_PART" = "Buy multiple parts at once";
+"BUY_OTHER_PART" = "Buy other part";
+"PART_PURCHASED" = "This part has been purchased";
+"CHECK_APPENDIX_PREMIUM_VIDEO" = "Check the premium appendix video";
+"BUY_BUNDLE_PREMIUM_CONFIRMATION" = "Would you like to buy a premium video set?";
+//withdraw
+"WITHDRAW_CONFIRMATION" = "Do you want to unsubscribe?";
+"WITHDRAW" = "Withdraw";
+"STILL_WITHDRAW" = "Do you still withdraw?";
+"WITHDRAWN" = "Withdrawn";
+//iap
+"PURCHASE_CANCEL" = "Product purchased cancelled.";
+"FETCHING_PRODUCT" = "Fetching product from app store";
+//download
+"WIFI_DOWNLOAD_ONLY" = "You can download only from Wi-Fi.";
+"CELLULAR_DOWNLOAD_WARNING" = "You are about to start download from cellular data. Are you sure you want to continue download?";
+"REDOWNLOAD_VIDEO" = "You need to redownload the full video to unlock full functionality.";
+"DOWNLOAD_IN_PROGRESS" = "Downloading song, Please wait.";
+"DOWNLOAD_STARTED" = "Download has started";

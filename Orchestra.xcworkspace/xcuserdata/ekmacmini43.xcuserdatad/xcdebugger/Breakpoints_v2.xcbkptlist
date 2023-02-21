@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A06818B1-1DF3-4B98-90CB-C0DBD6F942BB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFA3B8E6-6C6B-489F-BBE0-0E8B7E6C2D8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/PremiumVideoDetails/User Interface/View/PremiumVideoDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72ACD95A-0B27-466A-BF85-419EB6CAA2CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/PremiumVideoDetails/User Interface/View/PremiumVideoDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B5020E2-8D5F-4392-9B28-7BEF288BA84C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/PremiumVideoDetails/User Interface/Presenter/PremiumVideoDetailsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "obtainedLoginStatus(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB377A5A-365F-4D43-BAEB-0043874EFD13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/PremiumVideoDetails/User Interface/Presenter/PremiumVideoDetailsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "obtainedLoginStatus(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9BB8170-4E34-4D79-B70D-732F91964E24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/MyPage/MyPageContent/PurchasedContentList/User Interface/Wireframe/PurchasedContentListWireframe.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "openPremiumDetail(instrumentId:orchestraId:musicianId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF61D09F-07CB-40A3-B9C6-B2461430ECFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/MyPage/MyPageContent/BillingHistory/User Interface/View/BillingHistoryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF61D09F-07CB-40A3-B9C6-B2461430ECFC - 68a829ea2d308615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brasso.BillingHistoryViewController.tableView(_: __C.UITableView, willDisplay: __C.UITableViewCell, forRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Modules/MyPage/MyPageContent/BillingHistory/User%20Interface/View/BillingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1628">
+               </Location>
+               <Location
+                  uuid = "CF61D09F-07CB-40A3-B9C6-B2461430ECFC - 68a829ea2d308615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brasso.BillingHistoryViewController.tableView(_: __C.UITableView, willDisplay: __C.UITableViewCell, forRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Modules/MyPage/MyPageContent/BillingHistory/User%20Interface/View/BillingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C6B2B4A-8928-4AA3-873E-372E863397BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/MyPage/MyPageContent/BillingHistory/User Interface/View/BillingHistoryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDC58F15-E6F2-4CD2-9738-CA6E6A92FA34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/MyPage/MyPageContent/BillingHistory/User Interface/View/BillingHistoryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E078310C-ADEA-42D4-AE46-9916EC17E360"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Helper/FavouriteButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E04073A8-80EA-4F34-913B-875D30976D21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Api/OrchestraPlayerListApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchPlayerList(of:id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E04073A8-80EA-4F34-913B-875D30976D21 - d8c6cb944ce32fc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brasso.OrchestraPlayerListApi.fetchPlayerList(of: Swift.Int, id: Swift.Int, completion: (Swift.Result&lt;(models: Swift.Array&lt;Brasso.Musician&gt;, totalPages: Swift.Int), Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Api/OrchestraPlayerListApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1280">
+               </Location>
+               <Location
+                  uuid = "E04073A8-80EA-4F34-913B-875D30976D21 - a902eefe240cd52e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(Swift.Array&lt;Brasso.Musician&gt;, Swift.Optional&lt;EK_BaseViper.Pagination&gt;), Swift.Error&gt;) -&gt; () in Brasso.OrchestraPlayerListApi.fetchPlayerList(of: Swift.Int, id: Swift.Int, completion: (Swift.Result&lt;(models: Swift.Array&lt;Brasso.Musician&gt;, totalPages: Swift.Int), Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Api/OrchestraPlayerListApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28D5CD6F-BBB8-4663-ACED-32D88755B103"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/RegisterByEmail/RegisterByEmailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "callApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28D5CD6F-BBB8-4663-ACED-32D88755B103 - 4fdb826cf9e544df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brasso.RegisterByEmailPresenter.callApi() -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Modules/RegisterByEmail/RegisterByEmailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "28D5CD6F-BBB8-4663-ACED-32D88755B103 - 8ff506050a6c7989"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Brasso.NetworkingResult&lt;Brasso.DataParser&lt;Brasso.SendToken&gt;&gt;) -&gt; () in Brasso.RegisterByEmailPresenter.callApi() -&gt; ()"
+                  moduleName = "Brasso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekmacmini43/Documents/XcodeProjects/orchestra-ios/Orchestra/Modules/RegisterByEmail/RegisterByEmailPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4A8EC9F-88EE-4B0A-8F41-7A243F4CC76C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/RegisterByEmail/RegisterByEmailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "callApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1038BE20-EEF2-4E85-9F31-5E6E25194F79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/RegisterByEmail/RegisterByEmailPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "callApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B258F87-FFFD-4050-ABDE-ED141437BBAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/RegisterByEmail/RegisterByEmailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "observerScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "317E065F-BB8F-418A-90FD-1F39DF9AACF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Orchestra/Modules/RegisterByEmail/RegisterByEmailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
