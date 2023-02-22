@@ -39,8 +39,8 @@ public extension Routable {
         var headers = [String: String]()
         headers["Content-Type"] = "application/json"
         headers["Accept"] = "application/json"
-        headers["client_id"] =  Configuration.conf?.clientId ?? "" //"RRQBRFSUXOc50e60fbec3ace90bb60"
-        headers["client_secret"] = Configuration.conf?.clientSecret ?? ""//"JILQFODJEQORQESGVVMMYEBP6fc950a88321f49f1237"
+        headers["client_id"] =  Configuration.conf?.clientId ?? ""
+        headers["client_secret"] = Configuration.conf?.clientSecret ?? ""
         return headers
     }
     
